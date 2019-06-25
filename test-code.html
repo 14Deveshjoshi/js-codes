@@ -1,0 +1,17 @@
+<script type="text/javascript">
+var input = '';	
+var arr = [12,45,56,32,98,44,67];
+var input = [12,45,56,32,98,44,67];
+var sorted = arr.sort(function(a, b){return a-b});
+var result = '';
+for (var i=0;i<sorted.length;i++) {
+        
+            result += sorted[i]+','+sorted[i+2]+','+sorted[i+1]+','+sorted[i+4]+','+sorted[i+3]+','+sorted[i+6]+','+sorted[i+5];
+
+       break;
+    }
+
+    document.write("Input: "+input+"</br>");
+    document.write("Output: "+result);
+	
+</script>
